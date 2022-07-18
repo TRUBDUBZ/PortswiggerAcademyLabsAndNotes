@@ -6,4 +6,3 @@
 `SELECT * FROM users WHERE username = 'wiener' AND password = 'bluecheese'`
 
 - If the query returns the details of a user, then the login is successful. Otherwise, it is rejected.
-- 
