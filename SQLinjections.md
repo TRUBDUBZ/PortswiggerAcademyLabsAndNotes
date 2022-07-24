@@ -33,7 +33,6 @@
 
   `SELECT * FROM products WHERE category = 'Gifts' OR 1=1--' AND released = 1`
 
-- The modified query will return all items where either the category is 'Gifts', or 1 is equal to 1. 
+- The modified query will return all items where either the category is 'Gifts', or 1 is equal to 1.
 
 - Since 1=1 is always true, the query will return all items.
-

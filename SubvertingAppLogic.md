@@ -1,10 +1,8 @@
-# Subverting App Logic 
+# Subverting App Logic
 
-
-- Consider an application that lets users log in with a username and password. 
-
+- Consider an application that lets users log in with a username and password.
 - If a user submits the username 'wiener' and the password 'bluecheese', the
-  - application checks the credentials by preforming the following SQL query: 
+  - application checks the credentials by preforming the following SQL query:
 
 `SELECT * FROM users WHERE username = 'wiener' AND password = 'bluecheese'`
 
@@ -17,5 +15,3 @@
 `SELECT * FROM users WHERE username = 'administrator'--' AND password = '`
 
 - this query returns the user whose username is 'administrator' and successfully logs the attacker in as that user
-
- 
