@@ -1,6 +1,6 @@
 # Intercepting traffic with Burp Proxy
 
-Intercepting a request -
+## Intercepting a request -
   
 - Burp proxy lets you intercept HTTP requests and responses sent between Burp's browser and the target server
 - This enables you to study how the website behaves when you perform different actions.
