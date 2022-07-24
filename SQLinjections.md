@@ -6,15 +6,15 @@
 
   `https://insecure-website.com/products?category=Gifts`
 
-- This Url causes the app to make an SQL query to retrieve details
+This Url causes the app to make an SQL query to retrieve details
   
   `SELECT * FROM products WHERE category = 'Gifts' AND released = 1`
   
-  - This SQL query asks the database to return:
-    - all details ( * )
-    - from the products table
-    - where the category is Gifts
-    - and released is 1.
+- This SQL query asks the database to return:
+  - all details ( * )
+  - from the products table
+  - where the category is Gifts
+  - and released is 1.
 
 - The restriction released = 1 is being used to hide products that are not released. For unreleased products, presumably released = 0
 
